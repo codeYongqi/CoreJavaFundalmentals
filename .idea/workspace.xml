@@ -36,15 +36,15 @@
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="应用程序.ObjectAnalyzerTest">
-    <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter5._5_7_1.ClassTest" />
+  <component name="RunManager" selected="应用程序.MethodTableTest">
+    <configuration name="CopyOfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter5._5_7_6.CopyOfTest" />
       <module name="core_java_I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter5._5_7_1.*" />
+          <option name="PATTERN" value="Chapter5._5_7_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter5._5_6.EnumTest" />
+    <configuration name="MethodTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter5._5_7_7.MethodTableTest" />
       <module name="core_java_I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter5._5_6.*" />
+          <option name="PATTERN" value="Chapter5._5_7_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="应用程序.EnumTest" />
-      <item itemvalue="应用程序.ClassTest" />
       <item itemvalue="应用程序.ReflectionTest" />
       <item itemvalue="应用程序.TestField" />
       <item itemvalue="应用程序.ObjectAnalyzerTest" />
+      <item itemvalue="应用程序.CopyOfTest" />
+      <item itemvalue="应用程序.MethodTableTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.MethodTableTest" />
+        <item itemvalue="应用程序.CopyOfTest" />
         <item itemvalue="应用程序.ObjectAnalyzerTest" />
         <item itemvalue="应用程序.TestField" />
         <item itemvalue="应用程序.ReflectionTest" />
-        <item itemvalue="应用程序.ClassTest" />
-        <item itemvalue="应用程序.EnumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +203,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621061706619</updated>
-      <workItem from="1621061707838" duration="44942000" />
+      <workItem from="1621061707838" duration="46633000" />
+      <workItem from="1621493829853" duration="104000" />
+      <workItem from="1621494106604" duration="5849000" />
     </task>
     <servers />
   </component>
@@ -219,46 +221,58 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="394" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1621407176468" />
-    <state width="1390" height="399" key="GridCell.Tab.0.bottom" timestamp="1621428026783">
+    <state x="405" y="181" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1621493665768">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="399" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621428026783" />
+    <state x="405" y="181" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1621493665768" />
+    <state x="451" y="301" key="#更新" timestamp="1621493654883">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="451" y="301" key="#更新/0.0.1440.900@0.0.1440.900" timestamp="1621493654883" />
+    <state x="345" y="239" key="#通知" timestamp="1621493627091">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="345" y="239" key="#通知/0.0.1440.900@0.0.1440.900" timestamp="1621493627091" />
+    <state width="1388" height="382" key="GridCell.Tab.0.bottom" timestamp="1621500254067">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="382" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621500254067" />
     <state width="1390" height="224" key="GridCell.Tab.0.bottom/54.25.1386.875@54.25.1386.875" timestamp="1621415184539" />
-    <state width="1390" height="399" key="GridCell.Tab.0.center" timestamp="1621428026781">
+    <state width="1388" height="382" key="GridCell.Tab.0.center" timestamp="1621500254061">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="399" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621428026781" />
+    <state width="1388" height="382" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621500254061" />
     <state width="1390" height="224" key="GridCell.Tab.0.center/54.25.1386.875@54.25.1386.875" timestamp="1621415184538" />
-    <state width="1390" height="399" key="GridCell.Tab.0.left" timestamp="1621428026779">
+    <state width="1388" height="382" key="GridCell.Tab.0.left" timestamp="1621500254060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="399" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621428026779" />
+    <state width="1388" height="382" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621500254060" />
     <state width="1390" height="224" key="GridCell.Tab.0.left/54.25.1386.875@54.25.1386.875" timestamp="1621415184536" />
-    <state width="1390" height="399" key="GridCell.Tab.0.right" timestamp="1621428026782">
+    <state width="1388" height="382" key="GridCell.Tab.0.right" timestamp="1621500254062">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="399" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621428026782" />
+    <state width="1388" height="382" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621500254062" />
     <state width="1390" height="224" key="GridCell.Tab.0.right/54.25.1386.875@54.25.1386.875" timestamp="1621415184539" />
-    <state width="1390" height="277" key="GridCell.Tab.1.bottom" timestamp="1621426111554">
+    <state width="1388" height="276" key="GridCell.Tab.1.bottom" timestamp="1621495130527">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="277" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621426111554" />
-    <state width="1390" height="277" key="GridCell.Tab.1.center" timestamp="1621426111551">
+    <state width="1388" height="276" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621495130527" />
+    <state width="1388" height="276" key="GridCell.Tab.1.center" timestamp="1621495130526">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="277" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1621426111551" />
-    <state width="1390" height="277" key="GridCell.Tab.1.left" timestamp="1621426111550">
+    <state width="1388" height="276" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1621495130526" />
+    <state width="1388" height="276" key="GridCell.Tab.1.left" timestamp="1621495130525">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="277" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1621426111550" />
-    <state width="1390" height="277" key="GridCell.Tab.1.right" timestamp="1621426111552">
+    <state width="1388" height="276" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1621495130525" />
+    <state width="1388" height="276" key="GridCell.Tab.1.right" timestamp="1621495130526">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="277" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1621426111552" />
-    <state x="220" y="0" width="1125" height="900" key="SettingsEditor" timestamp="1621249930163">
+    <state width="1388" height="276" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1621495130526" />
+    <state x="103" y="0" width="1125" height="900" key="SettingsEditor" timestamp="1621493304169">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="0" width="1125" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621249930163" />
+    <state x="103" y="0" width="1125" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621493304169" />
     <state x="0" y="0" width="651" height="900" key="find.popup" timestamp="1621064328137">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -276,6 +290,11 @@
           <url>file://$PROJECT_DIR$/src/Chapter4/_4_2/CalendarTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter5/_5_7_5/ObjectAnalyzerTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

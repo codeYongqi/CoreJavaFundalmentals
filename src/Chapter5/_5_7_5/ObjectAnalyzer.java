@@ -43,8 +43,19 @@ public class ObjectAnalyzer {
 
             // get the names and values of all fields
             for(Field f : fields){
-
+                if(Modifier.isStatic(f.getModifiers())){
+                    if(!r.endsWith("[")) r += ",";
+                    r += f.getName() + "=";
+                    Class t = f.getType();
+                    Object val = f.get(obj);
+                    if(t.isPrimitive()) r += val;
+                    else r += toString(val);
+                }
             }
-        }while();
+            r += "]";
+            cl = cl.getSuperclass();
+        }while(cl != null);
+
+        return r;
     }
 }
