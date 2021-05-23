@@ -38,13 +38,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="应用程序.MethodTableTest">
-    <configuration name="CopyOfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter5._5_7_6.CopyOfTest" />
+  <component name="RunManager" selected="应用程序.ProxyTest">
+    <configuration name="AnonymousInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6._6_3_6.AnonymousInnerClassTest" />
       <module name="core_java_I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter5._5_7_6.*" />
+          <option name="PATTERN" value="Chapter6._6_3_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter5._5_7_7.MethodTableTest" />
+    <configuration name="InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6._6_3_1.InnerClassTest" />
       <module name="core_java_I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter5._5_7_7.*" />
+          <option name="PATTERN" value="Chapter6._6_3_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectAnalyzerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter5._5_7_5.ObjectAnalyzerTest" />
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6._6_5.ProxyTest" />
       <module name="core_java_I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter5._5_7_5.*" />
+          <option name="PATTERN" value="Chapter6._6_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter5._5_7_5.TestField" />
+    <configuration name="StaticInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6._6_3_7.StaticInnerClassTest" />
       <module name="core_java_I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter5._5_7_5.*" />
+          <option name="PATTERN" value="Chapter6._6_3_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,13 +104,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,19 +181,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="应用程序.InnerClassTest" />
       <item itemvalue="应用程序.ReflectionTest" />
-      <item itemvalue="应用程序.TestField" />
-      <item itemvalue="应用程序.ObjectAnalyzerTest" />
-      <item itemvalue="应用程序.CopyOfTest" />
-      <item itemvalue="应用程序.MethodTableTest" />
+      <item itemvalue="应用程序.AnonymousInnerClassTest" />
+      <item itemvalue="应用程序.StaticInnerClassTest" />
+      <item itemvalue="应用程序.ProxyTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.MethodTableTest" />
-        <item itemvalue="应用程序.CopyOfTest" />
-        <item itemvalue="应用程序.ObjectAnalyzerTest" />
-        <item itemvalue="应用程序.TestField" />
+        <item itemvalue="应用程序.ProxyTest" />
+        <item itemvalue="应用程序.StaticInnerClassTest" />
+        <item itemvalue="应用程序.AnonymousInnerClassTest" />
         <item itemvalue="应用程序.ReflectionTest" />
+        <item itemvalue="应用程序.InnerClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +207,8 @@
       <updated>1621061706619</updated>
       <workItem from="1621061707838" duration="46633000" />
       <workItem from="1621493829853" duration="104000" />
-      <workItem from="1621494106604" duration="5849000" />
+      <workItem from="1621494106604" duration="17182000" />
+      <workItem from="1621761856320" duration="6557000" />
     </task>
     <servers />
   </component>
@@ -217,10 +220,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="93" width="1145" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1621081089061" />
-    <state x="394" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1621407176468">
+    <state x="394" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1621765449085">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="394" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1621407176468" />
+    <state x="394" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1621765449085" />
     <state x="405" y="181" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1621493665768">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -233,42 +236,42 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="345" y="239" key="#通知/0.0.1440.900@0.0.1440.900" timestamp="1621493627091" />
-    <state width="1388" height="382" key="GridCell.Tab.0.bottom" timestamp="1621500254067">
+    <state width="1388" height="382" key="GridCell.Tab.0.bottom" timestamp="1621766364987">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="382" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621500254067" />
+    <state width="1388" height="382" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621766364987" />
     <state width="1390" height="224" key="GridCell.Tab.0.bottom/54.25.1386.875@54.25.1386.875" timestamp="1621415184539" />
-    <state width="1388" height="382" key="GridCell.Tab.0.center" timestamp="1621500254061">
+    <state width="1388" height="382" key="GridCell.Tab.0.center" timestamp="1621766364984">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="382" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621500254061" />
+    <state width="1388" height="382" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621766364984" />
     <state width="1390" height="224" key="GridCell.Tab.0.center/54.25.1386.875@54.25.1386.875" timestamp="1621415184538" />
-    <state width="1388" height="382" key="GridCell.Tab.0.left" timestamp="1621500254060">
+    <state width="1388" height="382" key="GridCell.Tab.0.left" timestamp="1621766364983">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="382" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621500254060" />
+    <state width="1388" height="382" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621766364983" />
     <state width="1390" height="224" key="GridCell.Tab.0.left/54.25.1386.875@54.25.1386.875" timestamp="1621415184536" />
-    <state width="1388" height="382" key="GridCell.Tab.0.right" timestamp="1621500254062">
+    <state width="1388" height="382" key="GridCell.Tab.0.right" timestamp="1621766364986">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="382" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621500254062" />
+    <state width="1388" height="382" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621766364986" />
     <state width="1390" height="224" key="GridCell.Tab.0.right/54.25.1386.875@54.25.1386.875" timestamp="1621415184539" />
-    <state width="1388" height="276" key="GridCell.Tab.1.bottom" timestamp="1621495130527">
+    <state width="1388" height="276" key="GridCell.Tab.1.bottom" timestamp="1621746334743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="276" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621495130527" />
-    <state width="1388" height="276" key="GridCell.Tab.1.center" timestamp="1621495130526">
+    <state width="1388" height="276" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621746334743" />
+    <state width="1388" height="276" key="GridCell.Tab.1.center" timestamp="1621746334741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="276" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1621495130526" />
-    <state width="1388" height="276" key="GridCell.Tab.1.left" timestamp="1621495130525">
+    <state width="1388" height="276" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1621746334741" />
+    <state width="1388" height="276" key="GridCell.Tab.1.left" timestamp="1621746334740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="276" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1621495130525" />
-    <state width="1388" height="276" key="GridCell.Tab.1.right" timestamp="1621495130526">
+    <state width="1388" height="276" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1621746334740" />
+    <state width="1388" height="276" key="GridCell.Tab.1.right" timestamp="1621746334742">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="276" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1621495130526" />
+    <state width="1388" height="276" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1621746334742" />
     <state x="103" y="0" width="1125" height="900" key="SettingsEditor" timestamp="1621493304169">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -298,5 +301,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/core_java_I$AnonymousInnerClassTest.ic" NAME="AnonymousInnerClassTest Coverage Results" MODIFIED="1621671009452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Chapter6._6_3_6.*</FILTER>
+    </SUITE>
   </component>
 </project>
